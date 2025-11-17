@@ -46,7 +46,7 @@ fun exploreForest() {
 
     val torchChoice = readln().lowercase() // user input stored in a variable
 
-    if (torchChoice == "pick up") {
+    if (torchChoice == "pick") {
         println("${GREEN}You take the torch. It might come in handy inside the cave.$RESET")
         enterCave(hasTorch = true)
     } else {
